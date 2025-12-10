@@ -1,0 +1,12 @@
+---
+title: "blog"
+listing:
+  contents:
+    - first-post.qmd
+    - second-post.qmd
+  sort: "date desc"
+  type: default
+  categories: true     # categories 필터/뱃지 표시
+  sort-ui: true        # 정렬 UI
+  filter-ui: true      # 필터 UI (카테고리 등)
+---

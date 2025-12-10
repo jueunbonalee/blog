@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>first-post – my-quarto-blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">my-quarto-blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">first-post</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">blog</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>학교로부터 합격 오퍼를 받은 게 2월 17일이었다. 1차(지원마감 1월 말일)/2차(3월 말일)/3차(5월 말일)로 지원 기간은 사실상 넉넉했지만 (몹시 호기롭게도) 이 대학의 이 코스가 거의 나에겐 유일무이한 선택지였고 그래서 일찌감치 준비해 빨리 지원하자는 게 전략이라 부르기도 민망한 전략이었다. 얼마 전 올해 최종 경쟁률이 8:1이었다는 것을 알게 되었는데 운이 좋아 망정이지 다른 코스는 지원조차 하지 않았다는 게 얼마나 겁이 없는 행동이었던지 새삼 깨달았고.. 멀쩡하게 잘 다니고 있는 회사가 있었기 때문에 좀 더 안일할 수 있지 않았나 싶기도 하지만.</p>
+<p>여하튼 오퍼를 일찌감치 받아두고 나니 참 시간이 안 간다고 생각했다. 2년을 다닌 회사에서 7월에 마지막 월급을 받았고 8월 한 달간 행복한 백수생활을 즐긴 후 드디어 9월, 20대의 끝을 붙잡고 다시 학생이 되었다. 개강이라니! 개강이라는 단어가 어찌나 익숙하고도 어색하던지! 서른이 되기 전에는 내 돈 주고 다시 공부하러 갈 거라고 종종 말해왔던 것이 현실이 되었다. 스무 살이 되고부터 어쩐지 늘 계속 돈을 벌었다. 첫 알바였던 배스킨라빈스부터 시작해 두 곳의 이탈리안 레스토랑, 수능 영어과외, 초/중/고등학생 영어강사 등으로 대학 졸업 전까지 계속 파트타임 일을 했다. 첫 마케팅 커리어를 시작했던 풀리모트 직장도 처음에는 주 30시간 파트타임에서 40시간 풀타임으로 전환한 케이스였다. 유럽에 온 후 현지 경력 한 줄을 쌓기 위해 시작한 무급 인턴 일도 소액의 유급 포지션으로 전환되었다. 늘 취업 시장에서, 겨우 입사한 그 어딘가에서 스스로가 ‘돈을 받아도 될 만한 사람이라고’ 입증해보이며 아둥바둥 살았다. 좀 더 운이 좋았거나 똑똑했거나 능력이 많은 사람이었다면 더 나은 곳에서 의미 없는 전쟁을 조금은 덜할 수 있지도 않았을까 싶지만 어찌 되었던 그것은 내 케이스가 아니었다. 그래서 돈을 한 푼도 안 버는 ’전업 학생’이 된다는 것이 생경했다. 돈을 한 푼도 벌지 않고 공부만 할 수 있는 이런 호사가 있을 수 있나 싶었다. 등록금은 그동안 일하며 모아온 돈으로 시원하게 (그러나 쿨하지 못하게) 납부했지만, 정확히 언제 다시 재취업할지 모르는 상황에 둘이서 벌던 생활에서 하나만 버는 생활로의 전환을 망설임 없이 기꺼이 받아들이고 지원해준 파트너에게 말로 표현하기 어려울 만큼 고마웠다.</p>
+<p>그렇게 시작한 석사 라이프의 첫 주는.. 몹시 하드코어였다. 사실 공식적인 1학기 개강은 9월 10일인데 나는 선수과목을 이수해야 했다. UC3M의 Computational Social Science(전산사회과학) 석사과정은 사회과학 관련 - 경제학, 경영학, 정치학, 사회학, 지정학, 저널리즘, 커뮤니케이션학, 국제학 등 - 학위를 가진 학생들을 대상으로 하는데 학부 기간 중 통계학과 R을 배운 적이 없는 경우 선수과목을 이수해야 한다. 올해 입학한 학생들 중 선수과목 이수가 필요하지 않은 케이스는 다섯 명이 채 안 되었기 때문에 9월 1일인 선수과목 개강이 사실상의 개강과 마찬가지였다. 월요일부터 금요일 그리고 다음주 월요일까지 총 6일간 매일 4시간씩, 그러니까 도합 24시간의 수업을 듣고 바로 다음날인 화요일에 시험을 봐야 하는 (몹시 빡센) 일정. 생전 본 적 없는 과목의 ’기초’에 해당하는 내용을 각 12시간만에 익힌다는 것이 비단 학생들에게 뿐만 아니라 교수님들에게도 부담이었던 것이 나가야 할 진도도 주어진 시간도 이미 정해져 있는데, 내용은 방대하고 학생들은 채 이해를 못했기 때문에 계속 질문을 던져야 하고.. 누구에게도 쉬워보이는 일은 아니었다.</p>
+<p>&lt; R 프로그래밍 입문(Introduction to R Programming) &gt;은 그래도 완전한 핸즈온 수업이라 일단 진도를 따라가기 훨씬 수월했고 또 그냥 재미있었다(!) 코딩과 관련해서 내가 가진 지식은 아주 기초적인 수준의 HTML/CSS, 그리고 어느 정도의 코딩 테스트를 풀어볼 수 있는 SQL 정도. R은 그야말로 일면식도 없는 상황이었는데 다행히 아싸리 R Studio 설치부터 모두가 함께하니까 마음의 부담이나 ‘나만 못 따라가는 게 아닌가’ 하는 두려움도 확실하게 적어졌다. 이후의 프로그래밍 수업을 따라가기 위한 기초 지식을 배우는 것이 목표로 대강 아래와 같은 내용을 커버했다.</p>
+<ul>
+<li><p>R과 R Studio | package 설치 및 기초적인 수준의 환경 세팅</p></li>
+<li><p>data type(numeric, character, logical, date)별 기본 함수</p></li>
+<li><p>vector | matrix | data frame | tibble</p></li>
+<li><p>cuarto</p></li>
+</ul>
+<p>수업은 마치 SQL을 처음 배울 때처럼(<a href="https://datarian.io/">데이터리안</a>에 샤라웃을 보내며!) 교수님과 함께 코드를 쳐보고 각 함수가 어떻게 작동하는지 또는 왜 이 코드는 잘못되었는지 등을 생각해보는 방식으로 진행되었다. 그 말인즉슨, 즐거운 수업 시간은 보통 순식간에 끝나버리고 정말로 각자에게 남은 몫은 정말로 문제를 마주했을 때 그동안 배운 함수들을 빠르게+정확하게+맞는 순서대로+잘 조합해서+효율적으로(엉엉) 꺼내어 쓸 수 있도록 연습하는 일. 돌아보면 SQL을 배울 때 매일 한 문제라도 계속 풀어보고, 답을 빨리 보지 않고 충분히 고민하는 시간을 가졌던 것이 진짜 도움이 많이 되었는데(이걸 그만두자마자 순식간에 까먹음..) 뭔가 비슷한 것이 필요하지 않을까 싶다. 고민하다가 교수님께서 링크드인 프로필에 <a href="https://www.datacamp.com/">datacamp</a> certificate을 올려두신 걸 보고 student plan으로 1년치 결제를 해두었는데 화요일에 시험부터 (제발 잘) 보고 찬찬히 살펴봐야겠고.</p>
+<p>그리고 문제의 &lt; 기초 통계학(Basic Statistics) &gt;. 수학이 싫어서 문과 간 사람으로서 돌고 돌아 만 29세에 수학을 다시 보게 될 줄이야. 공학용 계산기를 내 돈 주고 사게 될 줄이야. 영어로는 어떻게 부르는지도 모르는 미적분과 확률과 통계라니(한국어로도 영어로도 용어가 어색해서 둘 다 찾아보면서 공부해야 했다). 합격 오퍼를 받은 후 입학 전에 현직 데이터 분석가 몇 분과 커피챗을 했는데 모두가 통계학을 공부해두면 좋다고 하셨다. 그 조언을 받아두고도 그저 엄두가 나지 않으니 (어쩌면 그냥 하기 싫었던 것 같기도..) 차일피일 미루다가 정면돌파를 할 수 밖에 없는 상황이 되어버렸다. 역시 이후의 수업을 위한 전단계로 대강 아래와 같은 내용을 다뤘다.</p>
+<ul>
+<li><p>기술통계: 변수의 종류 | 시각화 | 도수분포표 | 통계값</p></li>
+<li><p>확률: 확률의 덧셈, 뺄셈, 곱셈법칙 | 조건부확률 | 전체 확률의 법칙, 베이즈 정리</p></li>
+<li><p>확률변수: 이산확률변수, 확률질량함수, 베르누이 모델, 이항모델 | 연속확률변수, 확률밀도함수, 균일분포 모델, 정규분포 모델</p></li>
+</ul>
+<p>아직 추리통계에는 발도 들여놓지 못했는데.. 어려웠다. 한 챕터가 끝날 때마다 받은 연습문제도 쉽지 않았다. 새삼 다시 웃긴 것이 한국식 수학교육을 받은 내가 유럽식 수학교육을 받은 대부분의 동기보다 잘 따라갈 거라는 아무 근거 없는 자신감 같은 게 있었던 것 같다. 그리고 확률 수업 때 벤다이어그램 어딘가에서 헤매거나 아주 기초적인 계산도 계산기를 써야하는 경우를 보면서 괜찮을 거라고 스스로를 세뇌시켰다(?) 그러다가 연습문제가 부족해서 수업 슬라이드를 chatGPT한테 주고 연습문제를 몇 개 달라고 했는데 그걸 보고 약간 패닉이 온 것이었다. 문제에서 주는 힌트를 잘 캐치해서 배운 함수에 넣기만 하면 되는데 쩔쩔매고 있는 나를 보며 까불지 말자고 생각했다(머쓱) 다른 동기들과 함께 교수님이 우리 수준을 알게 되셨으니 부디 시험문제를 쉽게 내주시기를 바라고 있는 상황이다..</p>
+<p>어쩐지 하루빨리 따라잡고 메워야 할 것만 자꾸자꾸 보이는 개강 첫 주. 그래도 한 번도 들어와본 적 없는 세계의 문턱에 서서 고개를 기웃대며 새로운 것들을 하나씩 배워가는 기쁨은 근사하다. 교수님들이 ’이 과목이 끝날 즈음에는 이런 것들을 할 줄 알게 될 거야’하고 보여주시는 것들은 지금으로서는 상상이 전혀 안 되지만 그 어딘가로 가고 있다는 상상만으로도 신이 나는 기분이 든다. 세상 모든 일을 문과, 이과로 이분할 수야 있겠냐만은 그래도 석사 전공을 결정할 때에 이과의 세계에 발을 걸치기로 한 것도 잘 했다는 생각이 든다. 줄곧 익숙한 방법으로 생각하고 말하다가 완전히 다른 방식으로 생각하고 말하는 것은 곧 새로운 언어를 갖게 되는 것과 같은 일이니까. 물론 새로운 언어를 배우는 일보다 더 어려울 것으로 예상된다만은.</p>
+<p>모르겠고 일단 다음주는 시험이다. 이번 주말은 죽었다.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
