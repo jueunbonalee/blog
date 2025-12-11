@@ -1,5 +1,5 @@
 ---
-title: "second-post"
+title: "W2 | 첫 시험 그런데 동기들이 너무 어려요"
 categories: [blog]
 ---
 
