@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  title: "my-quarto-blog"
+  title: "jueun bona lee"
   navbar:
     right:
-      - href: about.qmd
+      - href: index.qmd
         text: About
       - href: blog.qmd
         text: Blog
