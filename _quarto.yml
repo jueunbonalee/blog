@@ -5,16 +5,12 @@ website:
   title: "my-quarto-blog"
   navbar:
     right:
-      - href: index.qmd
-        text: Home
-      - href: blog.qmd
-        text: Blog
       - href: about.qmd
         text: About
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - href: blog.qmd
+        text: Blog
+      - icon: instagram
+        href: https://www.instagram.com/itsbonabehind/
 format:
   html:
     theme: cosmo
