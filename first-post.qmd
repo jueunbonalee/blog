@@ -1,5 +1,5 @@
 ---
-title: "first-post"
+title: "W1 | 개강이라니 그런데 다음주가 시험(?)"
 categories: [blog]
 ---
 
