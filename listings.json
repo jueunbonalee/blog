@@ -3,7 +3,9 @@
     "listing": "/blog.html",
     "items": [
       "/first-post.html",
-      "/second-post.html"
+      "/second-post.html",
+      "/third-post.html",
+      "/fourth-post.html"
     ]
   }
 ]
