@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: "jueun bona lee"
+  title: "It's Bona-behind"
   navbar:
     right:
-      - href: index.qmd
-        text: About
-      - href: blog.qmd
-        text: Blog
+      - text: About
+        href: index.qmd
+      - text: Blog
+        href: blog.qmd
       - icon: instagram
         href: https://www.instagram.com/itsbonabehind/
 format:

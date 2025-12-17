@@ -1,5 +1,5 @@
 ---
-title: "about"
+title: "About"
 page-layout: full
 title-block-banner: true
 ---
